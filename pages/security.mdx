@@ -1,0 +1,35 @@
+# Security
+
+We take security seriously.
+
+## Audits
+
+The last audit of the fully open source [Serenity codebase](https://github.com/serenity-kit/serenity) was performed in 2023-12 by [Radically Open Security](https://www.radicallyopensecurity.com/). All concerns have been addressed and the audit report will be available here in 2024-01.
+
+The last audit of the our [opaque](https://github.com/serenity-kit/opaque/) and [react-native-opaque](https://github.com/serenity-kit/react-native-opaque) libraries was performed in 2023-11 by [7ASecurity](https://7asecurity.com/). All concerns have been addressed and the audit report will be available here in 2024-01.
+
+## End-to-end Encryption
+
+The following content is encrypted and can only be decrypted by the intended recipient:
+
+- Page
+- Page title
+- Comment
+- Comment reply
+- Folder name
+- Workspace name
+- Workspace avatar
+
+### Meta data
+
+While all the content is encrypted, the server and someone being able to monitor your network traffic can still see a lot of meta data e.g. the size of the encrypted content, the time you sent it, the time you retrieved new content, members of a workspace, your device list.
+
+In addition email addresses are stored in plain text in the database.
+
+### Technical documentation
+
+In case you are interested there is a detailed [technical documentation](https://serenity-documentation.netlify.app/) available that describes the protocols used and links to the relevant code.
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within this project, please send an e-mail to hi@serenity.re. All security vulnerabilities will be promptly addressed.

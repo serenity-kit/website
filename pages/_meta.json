@@ -1,0 +1,50 @@
+{
+  "index": {
+    "title": "Serenity",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "features": {
+    "title": "Features",
+    "type": "page"
+  },
+  "security": {
+    "title": "Security",
+    "type": "page"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page",
+    "theme": {
+      "sidebar": false,
+      "toc": true,
+      "footer": false,
+      "breadcrumb": false,
+      "typesetting": "article"
+    },
+    "display": "hidden"
+  },
+  "open-source": {
+    "title": "Open Source",
+    "type": "page",
+    "display": "hidden"
+  },
+  "imprint": {
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    },
+    "display": "hidden"
+  }
+}
