@@ -121,21 +121,25 @@ export const Landing = () => {
         ]}
       /> */}
 
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <Example
           header="Open Source"
-          text="Serenity is fully Open Source. While there are many benefits to it, we believe it's essential for end-to-end encrypted software to verifiable"
-        >
-          Checkout to the{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/serenity-kit/Serenity"
-            className="text-text-primary dark:text-dark-text-primary underline underline-offset-[0.2rem]"
-          >
-            Serenity codebase on Github
-          </a>
-        </Example>
+          text={
+            <>
+              Serenity is fully Open Source. While there are many benefits to
+              it, we believe it's essential for end-to-end encrypted software to
+              verifiable. Checkout to the{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/serenity-kit/Serenity"
+                className="text-text-primary dark:text-dark-text-primary underline underline-offset-[0.2rem]"
+              >
+                Serenity codebase on Github
+              </a>
+            </>
+          }
+        ></Example>
       </div>
 
       <BlockWrapper>

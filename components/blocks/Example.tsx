@@ -6,7 +6,7 @@ import { BlockWrapper } from "./BlockWrapper";
 
 export type ExampleProps = {
   header: string;
-  text: string;
+  text: React.ReactNode;
   image?: ImageData;
   children?: React.ReactNode;
   className?: string;
