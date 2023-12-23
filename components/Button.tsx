@@ -1,10 +1,10 @@
-import { ComponentProps } from "react";
 import cn from "clsx";
+import { ComponentProps } from "react";
 import { Icon, IconName } from "./icon/Icon";
 
 export type ButtonProps = ComponentProps<"button"> & {
   variant: "primary" | "secondary";
-  iconName?: IconName;
+  iconName?: IconName | undefined;
 };
 
 export const Button = ({

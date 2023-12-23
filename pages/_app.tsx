@@ -1,12 +1,13 @@
 // needed as explicit import before our own styles
 // as they are otherwise added last and would therefore overrule our stylesheet
-import "nextra-theme-docs/style.css";
+import { AppProps } from "next/app";
 import { Inter } from "next/font/google";
+import "nextra-theme-docs/style.css";
 import "../styles/global.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       {/* additionally defines the font in <head> as elements like the theme-switch render outside of <main>

@@ -40,7 +40,8 @@ export type IconName =
 export type IconProps = {
   name: IconName;
   color?: Color;
-  size?: number | "full";
+  size?: number;
+  className?: string;
 };
 
 export const Icon: React.FC<IconProps> = ({

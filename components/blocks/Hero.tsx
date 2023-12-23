@@ -31,7 +31,7 @@ export const Hero: React.FC<HeroProps> = ({
               <Button
                 onClick={cta.onClick}
                 variant="primary"
-                iconName={cta.iconName || null}
+                iconName={cta.iconName}
               >
                 {cta.text}
               </Button>
@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({
               <Button
                 onClick={secondaryButton.onClick}
                 variant="secondary"
-                iconName={secondaryButton.iconName || null}
+                iconName={secondaryButton.iconName}
               >
                 {secondaryButton.text}
               </Button>

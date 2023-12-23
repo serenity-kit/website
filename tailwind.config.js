@@ -27,6 +27,17 @@ export const colors = {
     800: "#0A1E9B",
     900: "#000F70",
   },
+  error: {
+    100: "#FFEDEF",
+    200: "#FFCED4",
+    300: "#FD97A2",
+    400: "#F8656F",
+    500: "#F84A56",
+    600: "#E03E49",
+    700: "#CC343E",
+    800: "#AD2B34",
+    900: "#862229",
+  },
   surface: {
     primary: "#FFFFFF",
     secondary: "#FDFDFD",
@@ -37,7 +48,7 @@ export const colors = {
     title: "#000000",
     primary: "#1F1F21",
     secondary: "#4F5057",
-    tertiary: "#8A8B96"
+    tertiary: "#8A8B96",
   },
   palette: {
     terracotta: "#EF5245",
@@ -70,25 +81,25 @@ export const colors = {
       title: "#FFFFFF",
       primary: "#EDEDF0",
       secondary: "#EDEDF0",
-      tertiary: "#B4B4BD"
+      tertiary: "#B4B4BD",
     },
-  }
-}; 
+  },
+};
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './theme.config.tsx',
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./theme.config.tsx",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     colors: { ...colors },
     extend: {
       fontFamily: {
-        inter: 'var(--font-inter)'
+        inter: "var(--font-inter)",
       },
       fontSize: {
         h1: ["2rem", "2.375rem"],
@@ -110,16 +121,15 @@ module.exports = {
         xxs: "16rem",
       },
       screens: {
-        xs: "400px"
+        xs: "400px",
       },
       borderWidth: {
-        "3": "3px",
+        3: "3px",
       },
       gridTemplateColumns: {
-        footer: "2.5fr 2fr auto"
-      }
+        footer: "2.5fr 2fr auto",
+      },
     },
   },
   plugins: [],
-}
-
+};

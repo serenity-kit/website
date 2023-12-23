@@ -24,7 +24,7 @@ export const Landing = () => {
           text: "Sign up for Early Access",
           onClick: () => {
             const element = document.getElementById(callToActionId);
-            element.scrollIntoView({ behavior: "smooth" });
+            element?.scrollIntoView({ behavior: "smooth" });
           },
         }}
       >
@@ -144,7 +144,7 @@ export const Landing = () => {
 
       <BlockWrapper>
         <CTAArea id={callToActionId} header="Sign up for Early Access" text="">
-          <SubscribeForm convertkitFormId="2036524" />
+          <SubscribeForm convertkitFormId="1781726" />
         </CTAArea>
       </BlockWrapper>
     </>

@@ -1,6 +1,6 @@
-import { BlockWrapper } from "./BlockWrapper";
 import { DisplayHeading } from "../DisplayHeading";
 import { P } from "../P";
+import { BlockWrapper } from "./BlockWrapper";
 
 export type ComparisonData = {
   title: string;
