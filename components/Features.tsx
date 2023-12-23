@@ -11,7 +11,7 @@ import { FeatureDetail } from "./blocks/FeatureDetail";
 export const Features: React.FC = () => {
   return (
     <>
-      <DisplayHeading tag="h1" className="text-center mt-8">
+      <DisplayHeading tag="h1" className="text-center mt-16">
         Features
       </DisplayHeading>
 
@@ -20,7 +20,7 @@ export const Features: React.FC = () => {
         text="Formatting, tables, check-lists, code, special characters etc."
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityEditing}
           alt="Screenshot demonstrating editing features in Serenity"
         />
@@ -32,7 +32,7 @@ export const Features: React.FC = () => {
         imagePosition="left"
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityFolders}
           alt="Screenshot demonstrating folders and subfolders"
         />
@@ -43,7 +43,7 @@ export const Features: React.FC = () => {
         text="Allow to upload any kind of file to a page. Images are displayed inline."
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityAttachment}
           alt="Screenshot demonstrating an attachment upload"
         />
@@ -55,7 +55,7 @@ export const Features: React.FC = () => {
         imagePosition="left"
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityPermission}
           alt="Screenshot showing the member settings"
         />
@@ -66,7 +66,7 @@ export const Features: React.FC = () => {
         text="Discuss and collaborate on a page with comments and replies."
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityComments2}
           alt="Screenshot demonstrating comments in Serenity"
         />
@@ -78,7 +78,7 @@ export const Features: React.FC = () => {
         imagePosition="left"
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenitySharing2}
           alt="Screenshot demonstrating sharing a page"
         />

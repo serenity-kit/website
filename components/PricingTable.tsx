@@ -8,7 +8,7 @@ export const PricingTable = () => {
   return (
     <>
       <div>
-        <div className="sm:flex sm:flex-col sm:align-center mt-8">
+        <div className="sm:flex sm:flex-col sm:align-center mt-16">
           <div className="text-center">
             <DisplayHeading tag="h1">Pricing Plans</DisplayHeading>
             <p className="mt-5 text-xl text-gray-600">

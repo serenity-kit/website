@@ -83,7 +83,7 @@ export const Landing = () => {
         // link={{ text: "blub", href: "https://google.com", external: true }}
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityLogin}
           alt="Screenshot of the Serenity Login screen"
         />
@@ -95,7 +95,7 @@ export const Landing = () => {
         imagePosition="left"
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenitySharing}
           alt="Screenshot demonstrating sharing a page"
         />
@@ -106,7 +106,7 @@ export const Landing = () => {
         text="Discuss and collaborate on a page with comments and replies."
       >
         <Image
-          className="-mt-8 max-w-3xl"
+          className="-mt-8 max-w-2xl"
           src={imageSrcSerenityComments}
           alt="Screenshot demonstrating comments in Serenity"
         />
