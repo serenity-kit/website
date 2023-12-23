@@ -2,8 +2,8 @@ import cn from "clsx";
 import type { ComponentProps } from "react";
 
 export type PProps = ComponentProps<"p"> & {
-  variant: "primary" | "secondary" | "tertiary";
-  size: "sm" | "base";
+  variant?: "primary" | "secondary" | "tertiary";
+  size?: "sm" | "base";
 };
 
 export const P: React.FC<PProps> = ({

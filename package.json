@@ -16,6 +16,9 @@
     "url": "https://github.com/serenity-kit/website/issues"
   },
   "dependencies": {
+    "@effect/schema": "^0.56.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
     "clsx": "^2.0.0",
     "next": "^14.0.4",
     "nextra": "^2.13.2",

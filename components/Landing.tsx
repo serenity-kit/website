@@ -24,7 +24,7 @@ export const Landing = () => {
           text: "Sign up for Early Access",
           onClick: () => {
             const element = document.getElementById(callToActionId);
-            element.scrollIntoView({ behavior: "smooth" });
+            element?.scrollIntoView({ behavior: "smooth" });
           },
         }}
       >
