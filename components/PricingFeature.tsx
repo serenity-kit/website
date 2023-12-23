@@ -17,7 +17,7 @@ const PricingFeature: React.FC<Props> = (props) => (
         clipRule="evenodd"
       />
     </svg>
-    <span className="text-sm text-gray-500">{props.children}</span>
+    <span className="text-sm">{props.children}</span>
   </li>
 );
 
