@@ -1,6 +1,12 @@
-# Security
+import { DisplayHeading } from "../components/DisplayHeading";
 
-We take security seriously.
+<div className="text-center mt-8">
+  <DisplayHeading tag="h1">Security</DisplayHeading>
+</div>
+
+  {/* <p className="mt-5 text-xl text-gray-600">
+    We take security seriously.
+  </p> */}
 
 ## Audits
 
@@ -19,6 +25,12 @@ The following content is encrypted and can only be decrypted by the intended rec
 - Folder name
 - Workspace name
 - Workspace avatar
+
+### Key-rotation
+
+This is where we are better than most other end-to-end encrypted services. In most other services the encryption keys are not changing when a member is removed from a list or a share link is revoked. This means that the removed member or someone who has access to the revoked share link can still decrypt the content if they get access to to the encrypted data.
+
+In Serenity the encryption keys are rotated when a member is removed or a share link is revoked.
 
 ### Meta data
 

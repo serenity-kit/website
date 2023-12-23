@@ -68,6 +68,12 @@ export function Footer(): ReactElement {
             <a className={styles.link} href="/open-source">
               Open Source
             </a>
+            <a className={styles.link} href="/privacy-policy">
+              Privacy Policy
+            </a>
+            <a className={styles.link} href="/terms-of-service">
+              Terms of Service
+            </a>
             <a className={styles.link} href="/imprint">
               Imprint
             </a>

@@ -5,11 +5,16 @@ import imageSrcSerenityEditing from "../public/screenshots/serenity-editing.png"
 import imageSrcSerenityFolders from "../public/screenshots/serenity-folders.png";
 import imageSrcSerenityPermission from "../public/screenshots/serenity-permissions.png";
 import imageSrcSerenitySharing2 from "../public/screenshots/serenity-sharing2.png";
+import { DisplayHeading } from "./DisplayHeading";
 import { FeatureDetail } from "./blocks/FeatureDetail";
 
 export const Features: React.FC = () => {
   return (
     <>
+      <DisplayHeading tag="h1" className="text-center mt-8">
+        Features
+      </DisplayHeading>
+
       <FeatureDetail
         header="Rich editor features"
         text="Formatting, tables, check-lists, code, special characters etc."

@@ -40,6 +40,16 @@
     "type": "page",
     "display": "hidden"
   },
+  "terms-of-service": {
+    "title": "Terms of Service",
+    "type": "page",
+    "display": "hidden"
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "type": "page",
+    "display": "hidden"
+  },
   "imprint": {
     "type": "page",
     "theme": {
