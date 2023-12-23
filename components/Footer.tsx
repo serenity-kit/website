@@ -24,6 +24,7 @@ export function Footer(): ReactElement {
               <a
                 href="https://wirtschaftsagentur.at/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="block w-24"
               >
                 <Image
@@ -34,7 +35,11 @@ export function Footer(): ReactElement {
               <p className="mt-3 text-sm">
                 Funded through grants by
                 <br />
-                <a href="https://wirtschaftsagentur.at/" target="_blank">
+                <a
+                  href="https://wirtschaftsagentur.at/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Vienna Business Agency
                 </a>
                 <br />.
@@ -53,6 +58,7 @@ export function Footer(): ReactElement {
               className={styles.link}
               href="https://github.com/serenity-kit/Serenity/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Github
             </a>

@@ -21,7 +21,7 @@ export const Landing = () => {
         header="End-to-end encrypted workspaces"
         text="Empower seamless teamwork in real-time without compromising on security and privacy."
         cta={{
-          text: "Subscribe for Early Access",
+          text: "Sign up for Early Access",
           onClick: () => {
             const element = document.getElementById(callToActionId);
             element.scrollIntoView({ behavior: "smooth" });
@@ -121,12 +121,25 @@ export const Landing = () => {
         ]}
       /> */}
 
-      <BlockWrapper>
-        <CTAArea
-          id={callToActionId}
-          header="Subscribe for Early Access"
-          text=""
+      <div className="max-w-2xl mx-auto">
+        <Example
+          header="Open Source"
+          text="Serenity is fully Open Source. While there are many benefits to it, we believe it's essential for end-to-end encrypted software to verifiable"
         >
+          Checkout to the{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/serenity-kit/Serenity"
+            className="text-text-primary dark:text-dark-text-primary underline underline-offset-[0.2rem]"
+          >
+            Serenity codebase on Github
+          </a>
+        </Example>
+      </div>
+
+      <BlockWrapper>
+        <CTAArea id={callToActionId} header="Sign up for Early Access" text="">
           <SubscribeForm convertkitFormId="2036524" />
         </CTAArea>
       </BlockWrapper>
