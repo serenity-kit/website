@@ -1,0 +1,48 @@
+import Image from "next/image";
+import { Hero } from "../components/blocks/Hero";
+import imageSrcEarlyAccess from "../public/images/early-access.png";
+
+<Hero
+  header="Welcome!"
+>
+  <Image
+    className=""
+    src={imageSrcEarlyAccess}
+    alt="A party popper"
+    width={896}
+    height={512}
+  />
+</Hero>
+
+# Early Access
+
+You can sign up by visiting [https://www.serenityapp.page/](https://www.serenityapp.page/).
+
+Alternatively you can sign up directly in the iOS, macOS or Windows app.
+
+## Intro
+
+This is an early beta. Please let us know if you find any bugs or have any suggestions and send them directly to Nik at nik@serenity.re.
+
+You can create as many workspaces as you want and invite as many people as you want. There are no limits.
+
+## Platforms
+
+### Web Interface
+
+The web interface is available at [https://app.serenityapp.page/](https://app.serenityapp.page/).
+
+### iOS
+
+To install the iOS App you first need to install Apple's [TestFlight](https://apps.apple.com/us/app/testflight/id899247664) App from the App Store.
+After wars you can download the Serenity App with this link [https://testflight.apple.com/join/OwLGz0Cz](https://testflight.apple.com/join/OwLGz0Cz).
+
+### macOS App
+
+You can directly download the macOS App from [https://github.com/serenity-kit/Serenity/actions/runs/7624176994/artifacts/1188292566](https://github.com/serenity-kit/Serenity/actions/runs/7624176994/artifacts/1188292566).
+
+You need to unpack the ZIP file. In there you find `darwin/arm` and `darwin/x64`. In case you have an Intel Mac please use the `darwin/x64` version. In case you have an Apple Silicon Mac please use the `darwin/arm` version.
+
+### Windows App
+
+You can directly download the Windows App from [https://github.com/serenity-kit/Serenity/actions/runs/7624176994/artifacts/1188292570](https://github.com/serenity-kit/Serenity/actions/runs/7624176994/artifacts/1188292570).

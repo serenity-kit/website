@@ -43,6 +43,11 @@
     "type": "page",
     "display": "hidden"
   },
+  "early-access": {
+    "title": "Early Access",
+    "type": "page",
+    "display": "hidden"
+  },
   "terms-of-service": {
     "title": "Terms of Service",
     "type": "page",
