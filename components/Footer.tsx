@@ -6,7 +6,8 @@ import imageSrcViennaBusinessAgency from "../public/wirtschaftsagentur.jpg";
 export function Footer(): ReactElement {
   const styles = {
     wrapper:
-      "grid grid-cols-footer w-full max-w-[48rem] my-0 mx-auto text-text-tertiary dark:text-dark-text-tertiary",
+      "grid grid-cols-1 sm:grid-cols-footer-sm lg:grid-cols-footer-lg max-sm:gap-8 w-full max-w-[48rem]" +
+      " my-0 mx-auto max-sm:text-center text-text-tertiary dark:text-dark-text-tertiary",
     linkWrapper: "flex flex-col gap-2",
     link: "text-text-primary dark:text-dark-text-primary underline underline-offset-[0.2rem]",
   };
@@ -19,32 +20,30 @@ export function Footer(): ReactElement {
         )}
       >
         <div className={styles.wrapper}>
-          <div className="flex-1 justify-between text-sm">
-            <div className="w-52">
+          <div className="w-full sm:w-52 flex flex-col max-sm:items-center text-sm">
+            <a
+              href="https://wirtschaftsagentur.at/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-24"
+            >
+              <Image
+                src={imageSrcViennaBusinessAgency}
+                alt="Vienna Business Agency Logo"
+              />
+            </a>
+            <p className="mt-3 text-sm">
+              Funded through grants by
+              <br />
               <a
                 href="https://wirtschaftsagentur.at/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-24"
               >
-                <Image
-                  src={imageSrcViennaBusinessAgency}
-                  alt="Vienna Business Agency Logo"
-                />
+                Vienna Business Agency
               </a>
-              <p className="mt-3 text-sm">
-                Funded through grants by
-                <br />
-                <a
-                  href="https://wirtschaftsagentur.at/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Vienna Business Agency
-                </a>
-                <br />.
-              </p>
-            </div>
+              <br />.
+            </p>
           </div>
           <div className={styles.linkWrapper}>
             <h6>Resources</h6>
