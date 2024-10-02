@@ -28,7 +28,12 @@ export const Landing = () => {
           },
         }}
       >
-        <Image src={imageSrcLanding} alt="A beautiful illustration of a lock" />
+        <Image
+          src={imageSrcLanding}
+          width={512}
+          height={512}
+          alt="A beautiful illustration of a lock"
+        />
       </Hero>
 
       <Example
