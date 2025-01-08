@@ -84,7 +84,7 @@ export const Landing = () => {
 
       <FeatureDetail
         header="Simple sign in with email & password"
-        text="No complex setup or configuration. Due modern cryptography you can enjoy the benefits from extraordinary security without sacrificing UX."
+        text="No complex setup or configuration. Due to modern cryptography you can enjoy the benefits from extraordinary security without sacrificing UX."
         // link={{ text: "blub", href: "https://google.com", external: true }}
       >
         <Image
